@@ -18,7 +18,10 @@ let package = Package(
         .target(
             name: "TestPackage",
             dependencies: [],
-            resources: [.copy("Shared Assets")]),
+            resources: [
+                .process("Shared.xcassets"),
+                .process("sprite.png")
+            ]),
         .testTarget(
             name: "TestPackageTests",
             dependencies: ["TestPackage"]),
