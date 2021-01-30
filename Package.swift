@@ -19,7 +19,8 @@ let package = Package(
     targets: [
         .target(
             name: "TestPackage",
-            dependencies: []),
+            dependencies: [],
+            resources: [.copy("Shared Assets")]),
         .testTarget(
             name: "TestPackageTests",
             dependencies: ["TestPackage"]),
