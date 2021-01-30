@@ -19,7 +19,7 @@ public struct StringsForHire {
 #endif
 
 extension FileManager {
-    func copyfileToUserDocumentDirectory(forResource name: String,
+    public func copyfileToUserDocumentDirectory(forResource name: String,
                                          ofType ext: String) throws
     {
         if let bundlePath = Bundle.main.path(forResource: name, ofType: ext),
