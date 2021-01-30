@@ -2,6 +2,6 @@ struct TestPackage {
     var text = "Hello, World!"
 }
 
-struct TestStruct {
-    static var title = "Here's some text"
+public struct TestStruct {
+    public static var title = "Here's some text"
 }

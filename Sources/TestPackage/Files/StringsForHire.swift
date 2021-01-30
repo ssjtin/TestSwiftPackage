@@ -7,6 +7,6 @@
 
 import Foundation
 
-struct StringsForHire {
-    static let instrument = "Violin 4/4"
+public struct StringsForHire {
+    public static let instrument = "Violin 4/4"
 }
